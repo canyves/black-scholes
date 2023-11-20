@@ -22,15 +22,15 @@ P(S, t) = K e^{-r(T-t)} N(-d_2) - S_0 N(-d_1)
 $$
 
 Where:
-- \( C(S, t) \) and \( P(S, t) \) are the call and put option prices respectively.
-- \( S \) is the current stock price.
-- \( K \) is the strike price of the option.
-- \( T \) is the time to maturity (in years).
-- \( r \) is the risk-free interest rate.
-- \( N(\cdot) \) is the cumulative distribution function of the standard normal distribution.
-- \( d_1 = \frac{\ln(\frac{S}{K}) + (r + \frac{\sigma^2}{2})T}{\sigma\sqrt{T}} \)
-- \( d_2 = d_1 - \sigma\sqrt{T} \)
-- \( \sigma \) is the volatility of the stock’s returns.
+- $$ C(S, t) $$ and $$ P(S, t) $$ are the call and put option prices respectively.
+- $$ S $$ is the current stock price.
+- $$ K $$ is the strike price of the option.
+- $$ T $$ is the time to maturity (in years).
+- $$ r $$ is the risk-free interest rate.
+- $$ N(\cdot) $$ is the cumulative distribution function of the standard normal distribution.
+- $$ d_1 = \frac{\ln(\frac{S}{K}) + (r + \frac{\sigma^2}{2})T}{\sigma\sqrt{T}} $$
+- $$ d_2 = d_1 - \sigma\sqrt{T} $$
+- $$ \sigma $$ is the volatility of the stock’s returns.
 
 ## Implementation in Python
 
